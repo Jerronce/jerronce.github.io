@@ -5,12 +5,12 @@ const projects = [
   {
     title: "Radar App (Fintech)",
     description: "A fintech app for collective savings, helping users contribute and manage money together in USD.",
-    videoLink: "Radar.mp4"
+    videoLink: "assets/Radar.mp4"
   },
   {
     title: "Farad App (Logistics)",
     description: "A logistics-tech app designed to connect users with trucks for moving heavy goods and materials.",
-    videoLink: "Farad.mp4" 
+    videoLink: "assets/Farad.mp4" 
   },
   {
     title: "Portfolio Website",
