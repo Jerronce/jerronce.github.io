@@ -18,6 +18,7 @@ const projects = [
     description: "An AI app for job seekers that tailors their cv, but they have to imprt their made cv, then after auto apply to job platforms to any with just the link, and they can also practice their interview in the website and app also.  check out the app at praehire.web.app",
     videoLink: "assets/PraeHire.mp4" 
   },
+  <a href="https://github.com/jerronce" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
   {
     title: "Portfolio Website",
     description: "The personal portfolio site you are currently viewing, built with HTML, CSS, and vanilla JavaScript.",
