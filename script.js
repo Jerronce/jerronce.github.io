@@ -12,6 +12,12 @@ const projects = [
     description: "A logistics-tech app designed to connect users with trucks for moving heavy goods and materials.",
     videoLink: "assets/Farad.mp4" 
   },
+
+  {
+    title: "PraeHire (Live AI App for Jobseekers)",
+    description: "An AI app for job seekers that tailors their cv, but they have to imprt their made cv, then after auto apply to job platforms to any with just the link, and they can also practice their interview in the website and app also.  check out the app at praehire.web.app",
+    videoLink: "assets/PraeHire.mp4" 
+  },
   {
     title: "Portfolio Website",
     description: "The personal portfolio site you are currently viewing, built with HTML, CSS, and vanilla JavaScript.",
@@ -28,7 +34,7 @@ projects.forEach(project => {
   // Create the links based on what's available in the projects list
   let linksHTML = '';
   if (project.videoLink) {
-    linksHTML += `<a href="${project.videoLink}" target="_blank">Watch Demo</a>`;
+    linksHTML += `<a href="${project.videoLink}" target="_blank">Watch Video</a>`;
   }
   if (project.liveLink) {
     linksHTML += `<a href="${project.liveLink}" target="_blank">View Live Site</a>`;
