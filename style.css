@@ -156,6 +156,48 @@ section { padding: 7rem 0; }
   transform: scale(1.05);
 }
 
+
+/* --- Optimized Mobile Adjustments --- */
+@media (max-width: 600px) {
+  /* Fixes the header/logo overlap */
+  header .container {
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+  }
+  
+  header nav ul {
+    display: flex;
+    margin-top: 0.5rem;
+    gap: 10px;
+  }
+  
+  header nav ul li {
+    margin-left: 0;
+    font-size: 0.85rem;
+  }
+
+  /* Shrinks the hero text so it doesn't hide behind the header */
+  #hero {
+    padding-top: 120px; /* Gives space for the fixed header */
+    height: auto;
+    min-height: 100vh;
+  }
+
+  #hero h1 {
+    font-size: 2rem; /* Reduced from 3.5rem for mobile */
+    line-height: 1.2;
+  }
+
+  #hero h2 {
+    font-size: 1.4rem;
+  }
+
+  #hero .subtitle {
+    font-size: 0.95rem;
+    padding: 0 1rem;
+  }
+}
+
 /* --- Footer --- */
 footer { padding: 3rem; text-align: center; background: var(--surface-color); border-top: 1px solid #333; color: #888; }
 
