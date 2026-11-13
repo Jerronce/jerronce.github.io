@@ -4,6 +4,8 @@
 Visit: [jerronce.github.io](https://jerronce.github.io)
 
 ## 👨‍💻 About This Project
+Jeremiah (Jerry) Adedurin is a Bachelor of Science (B.Sc.) in Computer Science graduate of University of the People, Founder of Prae Technologies, AI Engineer, Software Engineer, and Product Builder developing AI-powered software products for a global audience.
+
 This is my **professional developer portfolio website** showcasing my skills, projects, and experience in web development. Built with modern web technologies, this portfolio demonstrates my ability to create clean, responsive, and user-friendly interfaces.
 
 ## ✨ Key Features
