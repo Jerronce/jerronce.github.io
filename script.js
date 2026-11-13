@@ -36,4 +36,4 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.15 });
 document.querySelectorAll('.animated-section').forEach(s => observer.observe(s));
 
-document.querySelector('footer p').innerText = `© ${new Date().getFullYear()} Jerry Adedurin. B.Sc. Computer Science Graduate | Founder of Prae Technologies.`;
+document.querySelector('footer p').innerText = `© ${new Date().getFullYear()} Jerry Adedurin. B.Sc. Computer Science Graduate, Magna Cum Laude | Founder of Prae Technologies.`;
