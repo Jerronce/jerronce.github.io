@@ -15,6 +15,18 @@ This is my **professional developer portfolio website** showcasing my skills, pr
 - **Professional Resume** - Integrated resume section highlighting my skills and experience
 - **Contact Integration** - Easy ways for recruiters and employers to reach me
 
+## Media Features & Recognition
+
+The portfolio links to the original BusinessDay Nigeria feature (23 October 2026) and University of the People Student Stories profile. Historical publisher headlines are preserved alongside my current graduate identity. These links do not imply endorsement of Prae Technologies or its products.
+
+- [BusinessDay feature](https://businessday.ng/news/article/stroke-survivor-resumes-computer-science-degree-through-uopeople/)
+- [University of the People student story](https://www.uopeople.edu/student-experience/student-life/student-stories/jeremiah-a-uopeople-student-stories/)
+- [Current November 2026 CV](assets/Jeremiah-Adedurin-CV-November-2026.pdf)
+
+The current CV replaces the older public download copies. Existing product demonstrations are playable on the page without autoplay. Portrait and video assets come from this existing portfolio; publisher images have not been copied.
+
+For local review, serve this static site with `python -m http.server 8768 --bind 127.0.0.1` and open `http://127.0.0.1:8768/`. There is no package installation or application build step.
+
 ## 🛠️ Tech Stack
 - **HTML5** - Semantic markup and modern web standards
 - **CSS3** - Advanced styling with Flexbox/Grid layouts
